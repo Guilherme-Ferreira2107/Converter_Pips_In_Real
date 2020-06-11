@@ -2,20 +2,21 @@
 	Pips to Reais Converter
 </h1>
 
-## Projeto
+## Project
 
 Visando ajudar toda a comunidade de traders do mundo, foi desenvolvida essa aplicação para agilizar a conversão de cálculos durante nossas operações diárias.
 
+<h5>
 Aiming to help all traders in the world community, we have developed this application to speed up the conversion calculations during our daily operations.
-
+</h5>
 <h1 align="center">
-    <img alt="Example" title="Example" src="https://raw.githubusercontent.com/Guilherme-Ferreira2107/ConverterPipsInReal/master/src/images/Image-based.JPG" width="350px" />
+    <img alt="Example" title="Example" src="https://raw.githubusercontent.com/Guilherme-Ferreira2107/ConverterPipsInReal/master/src/images/Image-based.JPG" width="500px" />
 </h1>
 
 
-## Tecnologias
+## Technology
 
-Desenvolvido com:
+Developed with:
 
 - React js
 - Redux
