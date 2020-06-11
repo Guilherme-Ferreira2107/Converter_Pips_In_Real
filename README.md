@@ -1,17 +1,15 @@
-<h1 align="center">
-  <img alt="Calculator OB" title="#Calculator OB" src="https://guilherme-ferreira2107.github.io/static/media/logoC.de23cd38.png" width="350px" />
-</h1>
-
 <h4 align="center"> 
-	Pips to Real Converter
+	Pips to Reais Converter
 </h4>
 
 ## Projeto
 
 Visando ajudar toda a comunidade de traders do mundo, foi desenvolvida essa aplicação para agilizar a conversão de cálculos durante nossas operações diárias.
 
+Aiming to help all traders in the world community, we have developed this application to speed up the conversion calculations during our daily operations.
+
 <h1 align="center">
-    <img alt="Example" title="Example" src="https://raw.githubusercontent.com/Guilherme-Ferreira2107/Guilherme-Ferreira2107.github.io/master/home.JPG" width="350px" />
+    <img alt="Example" title="Example" src="https://raw.githubusercontent.com/Guilherme-Ferreira2107/ConverterPipsInReal/master/src/images/Image-based.JPG width="350px" />
 </h1>
 
 
@@ -22,6 +20,7 @@ Desenvolvido com:
 - React js
 - Redux
 - JavaScript
+- SCSS
 
 ```
 
