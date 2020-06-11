@@ -1,11 +1,14 @@
-.aplicacao{
+.main{
     padding: 20px;
     border: 2px solid #3b638f;
     border-radius: 4px;
     background: rgb(234, 233, 253);
+    min-width: 700px;
+    box-sizing: border-box;
 }
 .item{
     padding-bottom: 20px;
+    position: relative;
 }
 .item h1{
     text-align: center;
@@ -16,7 +19,7 @@ label{
     color: #4270a1;
     font-weight: bold;
 }
-.aplicacao input {
+.main input {
     margin: 10px 0 10px;
     display: flex;
     padding: 15px;

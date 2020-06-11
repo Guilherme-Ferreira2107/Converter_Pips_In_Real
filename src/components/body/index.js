@@ -1,11 +1,11 @@
 import React from 'react';
-import './style.css';
-import Aplication from '../aplication'
+import './style.scss';
+import Main from '../aplication'
 
 const Body = () => {
     return(
         <div class="body">
-            <Aplication />
+            <Main />
         </div>
     );
 }

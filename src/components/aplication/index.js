@@ -1,8 +1,8 @@
 import React from 'react'
-import './style.css'
+import './style.scss'
 import Loading from '../loader'
 
-class Aplication extends React.Component {
+class Main extends React.Component {
     constructor(props) {
         super(props);
         this.state = { 
@@ -17,8 +17,8 @@ class Aplication extends React.Component {
         };
         this.handleChangeVolumes = this.handleChangeVolumes.bind(this);
         this.handleChangeValueVolumes = this.handleChangeValueVolumes.bind(this);
-        this.handleChangePontos = this.handleChangePontos.bind(this);
-        this._calculaValor = this._calculaValor.bind(this);
+        this.handleChangePips = this.handleChangePips.bind(this);
+        this._calculatesValue = this._calculatesValue.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
         this._copy = this._copy.bind(this);
       }
@@ -28,13 +28,13 @@ class Aplication extends React.Component {
     handleChangeValueVolumes(e) {
         this.setState({ valueVolumes: e.target.value });
     }
-    handleChangePontos(e) {
+    handleChangePips(e) {
         this.setState({ input: e.target.value });
     }
     handleSubmit(e) {
         e.preventDefault();
     }
-    _calculaValor = () =>{
+    _calculatesValue = () =>{
         const { input, volumes, valueVolumes } = this.state;
         let x = input * (volumes*valueVolumes);
         
@@ -66,14 +66,14 @@ class Aplication extends React.Component {
     render(){
         const { input, volumes, valueVolumes, result, loading } = this.state;
         return (            
-            <div class="aplicacao">
+            <div class="main">
                 <div class="item">
-                    <h1>Conversor de Pips para Real</h1>
+                    <h1>Pips to Reais Converter - For Mini Bovespa</h1>
                 </div>
                 <form onSubmit={this.handleSubmit}>
                 <section>
                     <div class="item">
-                        <label>Informe o valor de (1)Lote/Volume?</label>
+                        <label>Enter the value of (1) Lot/Volume?</label>
                         <input
                             type='number'
                             onChange={this.handleChangeValueVolumes}
@@ -81,7 +81,7 @@ class Aplication extends React.Component {
                         />
                     </div>
                     <div class="item">
-                        <label>Informe a quantidade de Lote/Volume?</label>
+                        <label>Enter the quantity of Batch/Volume?</label>
                         <input
                             type='number'
                             onChange={this.handleChangeVolumes}
@@ -90,10 +90,10 @@ class Aplication extends React.Component {
                     </div>
                 </section>
                     <div class="item">
-                        <label>Informe a quantidade de Pips/Pontos?</label>
+                        <label>Enter the amount of Pips/Points?</label>
                         <input
                             type='number'
-                            onChange={this.handleChangePontos}
+                            onChange={this.handleChangePips}
                             value={input}
                         />
                         <div class="item">
@@ -103,16 +103,16 @@ class Aplication extends React.Component {
                             :<button
                                 class="button"
                                 type='submit'
-                                onClick={this._calculaValor}
+                                onClick={this._calculatesValue}
                             >
-                                Calcular
+                                Calculate
                                 <span></span>
                             </button>
                         }
                         </div>
                     </div>
                     <div class="item">
-                        <label class="result">Resultado: R${result.toFixed(2)}</label>
+                        <label class="result">Result: R${result.toFixed(2)}</label>
                         <button 
                             type="submit"
                             class="copy"
@@ -126,4 +126,4 @@ class Aplication extends React.Component {
     }
 }
 
-export default Aplication; 
+export default Main; 
