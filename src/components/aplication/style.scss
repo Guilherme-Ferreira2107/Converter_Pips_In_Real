@@ -1,0 +1,86 @@
+.aplicacao{
+    padding: 20px;
+    border: 2px solid #3b638f;
+    border-radius: 4px;
+    background: rgb(234, 233, 253);
+}
+.item{
+    padding-bottom: 20px;
+}
+.item h1{
+    text-align: center;
+    color: #3b638f;
+    text-transform: uppercase;
+}
+label{
+    color: #4270a1;
+    font-weight: bold;
+}
+.aplicacao input {
+    margin: 10px 0 10px;
+    display: flex;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(14,19,24,.7);
+    
+}
+button{
+    margin-top: 30px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font: inherit;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px 16px;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;    
+    background-color: #3b638f; /* #00c4cc */
+    color: #fff;
+    text-shadow: none;
+    text-transform: uppercase;
+    transition: all 200ms ease 0s;
+}
+button:hover{
+    color: #3b638f;
+    background: white;
+    border: 2px solid #3b638f;
+    text-shadow: none;
+}
+.result{
+    font-size: 24px;
+    vertical-align: middle;
+}
+.copy{
+    margin-left: 15px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font: inherit;
+    font-size: 12px;
+    width: 75px;
+    padding: 10px 16px;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;    
+    background-color: #3b638f; /* #00c4cc */
+    color: #fff;
+    text-shadow: none;
+    text-transform: uppercase;
+    transition: all 200ms ease 0s;
+}
+.copy:hover{
+    color: #3b638f;
+    background: white;
+    border: 2px solid #3b638f;
+    text-shadow: none;
+}
+.message{
+    transition: all 200ms ease 0s;
+}
