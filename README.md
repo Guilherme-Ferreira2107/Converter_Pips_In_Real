@@ -26,3 +26,4 @@ Developed with:
 ```
 
 Para mais informações: [Guilherme Ferreira](https://www.linkedin.com/in/guifsantos/)
+For more information: <a href="https://www.linkedin.com/in/guifsantos/">Guilherme Ferreira</a>
