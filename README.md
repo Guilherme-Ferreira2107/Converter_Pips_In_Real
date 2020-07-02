@@ -23,5 +23,5 @@ Developed with:
 - JavaScript
 - SCSS
 
-```
 For more information: Guilherme Santos, https://www.linkedin.com/in/guifsantos/
+
