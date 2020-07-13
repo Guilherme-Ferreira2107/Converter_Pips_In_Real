@@ -1,10 +1,12 @@
 import React from 'react';
-import './style.css';
+import './styles.scss';
 
 const Header = () => {
     return(
         <div class="header">
-            <p></p>
+            <section>
+                {/* Propaganda */}
+            </section>
         </div>
     )
 }

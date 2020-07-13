@@ -1,36 +1,48 @@
-.main{
+@import '../../styles.scss';
+
+.main {
+    width: 100%;
     padding: 20px;
-    border: 2px solid #3b638f;
+    border: 2px solid $blue-theme;
     border-radius: 4px;
-    background: rgb(234, 233, 253);
-    min-width: 700px;
+    background: #ffffff59;
     box-sizing: border-box;
 }
-.item{
+.item {
     padding-bottom: 20px;
-    position: relative;
 }
-.item h1{
+.item h3 {
     text-align: center;
-    color: #3b638f;
+    color: transparent;
     text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to left, #02002471 0%, #020024 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-label{
-    color: #4270a1;
+.item .sub-title {
+    padding: 0 100px 0 100px;
+}
+.item .sub-title h5 {
+    text-align: right
+}
+label {
+    color: white;
     font-weight: bold;
+    font-size: 12px;
 }
 .main input {
     margin: 10px 0 10px;
     display: flex;
-    padding: 15px;
+    padding: 10px;
     border-radius: 4px;
-    border: 1px solid #ccc;
-    font-size: 16px;
+    border: none;
+    font-size: 14px;
     font-weight: bold;
-    color: rgba(14,19,24,.7);
+    color: $input-text-color;
     
 }
-button{
+button {
     margin-top: 30px;
     border: 2px solid transparent;
     border-radius: 4px;
@@ -43,23 +55,24 @@ button{
     outline: 0;
     text-align: center;
     text-decoration: none;    
-    background-color: #3b638f; /* #00c4cc */
+    background-color: $blue-theme;
     color: #fff;
     text-shadow: none;
     text-transform: uppercase;
     transition: all 200ms ease 0s;
 }
-button:hover{
-    color: #3b638f;
+button:hover {
+    color: $blue-theme;
     background: white;
-    border: 2px solid #3b638f;
+    border: 2px solid $blue-theme;
     text-shadow: none;
 }
-.result{
+.result {
     font-size: 24px;
     vertical-align: middle;
+    color: $blue-theme;
 }
-.copy{
+.copy {
     margin-left: 15px;
     border: 2px solid transparent;
     border-radius: 4px;
@@ -72,18 +85,18 @@ button:hover{
     outline: 0;
     text-align: center;
     text-decoration: none;    
-    background-color: #3b638f; /* #00c4cc */
+    background-color: $blue-theme;
     color: #fff;
     text-shadow: none;
     text-transform: uppercase;
     transition: all 200ms ease 0s;
 }
-.copy:hover{
-    color: #3b638f;
+.copy:hover {
+    color: $blue-theme;
     background: white;
-    border: 2px solid #3b638f;
+    border: 2px solid $blue-theme;
     text-shadow: none;
 }
-.message{
+.message {
     transition: all 200ms ease 0s;
 }

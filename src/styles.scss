@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+$font-theme: "Montserrat";
+$blue-theme: #3b638f;
+$input-text-color: #0e1318b3;
+$bg-theme: #4270a1;
+
+.app {
+    font-family: $font-theme;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: linear-gradient(to right, #ff000000 0%, #020024 70%);
+    animation: bg 3s;
+    animation-delay: 1s;
+    transition: 1s;
+}
+@keyframes bg {
+    from {
+        background-image: linear-gradient(to right, #ff000000 0%, #020024 70%);
+    }  
+    to {
+        background-color:#ff000000;
+    }
+}
+section {
+    display: flex;
+}
+section .item {
+    flex: 1;
+}
+.ads {
+    max-width: 100px;
+    display: flex;
+    align-items: center;
+
+}

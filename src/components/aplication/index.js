@@ -1,6 +1,7 @@
-import React from 'react'
-import './style.scss'
+import React, { useEffect } from 'react'
+import './styles.scss'
 import Loading from '../loader'
+import { gsap } from 'gsap'
 
 class Main extends React.Component {
     constructor(props) {
@@ -63,12 +64,21 @@ class Main extends React.Component {
         }
         document.body.removeChild(textArea);
     }
+    componentDidMount() {
+        gsap.from(".main", { y: 100 })
+    }
+    
     render(){
         const { input, volumes, valueVolumes, result, loading } = this.state;
-        return (            
+        
+        return (
             <div class="main">
+            { this.anima }
                 <div class="item">
-                    <h1>Pips to Reais Converter - For Mini Bovespa</h1>
+                    <div class="sub-title">
+                        <h3>Pips2Reais Converter</h3>
+                        <h5>For Mini Bovespa</h5>
+                    </div>
                 </div>
                 <form onSubmit={this.handleSubmit}>
                 <section>

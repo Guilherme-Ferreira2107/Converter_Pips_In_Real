@@ -18,10 +18,14 @@ Aiming to help all traders in the world community, we have developed this applic
 
 Developed with:
 
-- React js
+- React.js
 - Redux
 - JavaScript
 - SCSS
 
+<<<<<<< HEAD
+Para mais informações: Guilherme Ferreira: https://www.linkedin.com/in/guifsantos/
+=======
 For more information: Guilherme Santos, https://www.linkedin.com/in/guifsantos/
 
+>>>>>>> 47994f979b3c65ea73ee94cff448f633391287ed

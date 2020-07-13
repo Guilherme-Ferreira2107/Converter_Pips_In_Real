@@ -1,11 +1,11 @@
 import React from 'react';
-import './style.css';
+import './styles.scss';
 
 const Footer = () => {
     return(
         <div class="footer">
             <section>
-                
+                {/* Propaganda */}
             </section>
         </div>
     );
